@@ -7,3 +7,26 @@ h2 {
 h3 {
     color: rgba(58, 56, 48, 0.897);
 }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            padding: 10px;
+        }
+
+        #left {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 25%;
+        }
+
+        #right {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 75%;
+        }
