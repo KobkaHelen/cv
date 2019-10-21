@@ -22,6 +22,7 @@ h3 {
             left: 0;
             top: 0;
             width: 25%;
+            background: 
         }
 
         #right {
@@ -29,4 +30,10 @@ h3 {
             right: 0;
             top: 0;
             width: 75%;
+        }
+        .round {
+            border-radius: 50%; /* Радиус скругления */
+            overflow: hidden;
+            border: 3px solid rgb(30, 150, 219); /* Параметры рамки */
+            box-shadow: 0 0 7px rgb(34, 163, 238); /* Параметры тени */
         }
