@@ -1,5 +1,5 @@
 h1 {
-    color: rgba(17, 0, 255, 0.733);
+    color: rgba(65, 60, 62, 0.733);
 }
 h2 {
     color: rgba(58, 56, 48, 0.897);
@@ -21,7 +21,9 @@ h3 {
             position: absolute;
             left: 0;
             top: 0;
-            width: 25%;
+            width: 30%;
+            
+            
             
         }
 
@@ -29,12 +31,19 @@ h3 {
             position: absolute;
             right: 0;
             top: 0;
-            width: 75%;
+            width: 70%;
         }
         .round {
             border-radius: 50%; /* Радиус скругления */
             overflow: hidden;
             border: 3px solid rgb(30, 150, 219); /* Параметры рамки */
             box-shadow: 0 0 7px rgb(34, 163, 238); /* Параметры тени */
+        }
+        #footer {
+            height: 50px; 
+            background: #f7f7f7; 
+            position: absolute; 
+            bottom: 0; 
+        
         }
        
